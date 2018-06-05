@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    <form action="">
-        <input type="text"><br>
-        <input type="text"><br>
-    </form>
+    <article>
+        <h3>Add new staff member</h3>
+        <label for="name">Name:</Label>
+        <input type="text" id="inputName">
+        <br>
+        <label for="cohort">Cohort:</label>
+        <input type="text" id="inputCohort">
+        <br>
+        <button id="addBtn">Add</button>
+    </article>
+    <article id="staff">
+        
+    </article>
+    <script src="database.js"></script>
+    <script src="domController.js"></script>
 </body>
+
 </html>
